@@ -189,11 +189,11 @@ namespace ATMGroupA
             }
             else
             {
-                Console.WriteLine($"\n\t\tTransaction history for {selectedAccount.AccountName}\n");
-                Console.WriteLine("\t\t\tDate\t\t\t\tId\t\t\tAmount");
+                Console.WriteLine($"\n\t\t\t\tTransaction history for {selectedAccount.AccountName}\n");
+                Console.WriteLine("\t\t\tDate\t\t\tId\t\t\tAmount");
                     foreach (var transaction in listOfTransactions)
                 {
-                    Console.Write($"\n\n\t\t{transaction.TransactionDate}\t\t{transaction.TransactionId}\t\t{transaction.TransactionAmount}");
+                    Console.Write($"\n\n\t\t{transaction.TransactionDate}\t\t{transaction.TransactionId}\t\t\t{transaction.TransactionAmount}");
                 }
 
                 Console.WriteLine($"\nYou have Performed {listOfTransactions.Count} Transactions");
