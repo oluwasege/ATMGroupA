@@ -6,6 +6,6 @@ namespace ATMGroupA
 {
     public interface IWithdrawal
     {
-        public void MakeWithdrawal(Bank bankAccount);
+        public void MakeWithdrawal();
     }
 }

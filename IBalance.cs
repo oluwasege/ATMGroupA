@@ -6,6 +6,6 @@ namespace ATMGroupA
 {
     public interface IBalance
     {
-        void CheckBalance(Bank bankAcount);
+        void CheckBalance();
     }
 }

@@ -6,8 +6,8 @@ namespace ATMGroupA
 {
     public interface ITransaction
     {
-        public void InsertTransaction(Transaction transaction, Bank bank);
-        public void ViewTransaction(Bank bankAccount);
+        public void InsertTransaction(Bank bankAccount, Transaction transaction);
+        public void ViewTransaction();
         
     }
 }
